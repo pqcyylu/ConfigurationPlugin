@@ -114,6 +114,7 @@
     <None Include="res\waiting.gif" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddIntanceOperationExecuter.cpp" />
     <ClCompile Include="ConfigDocumentBase.cpp" />
     <ClCompile Include="ConfigDocumentNameUtil.cpp" />
     <ClCompile Include="ConfigObjectGridCtrl.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="WaitDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddIntanceOperationExecuter.h" />
     <ClInclude Include="ConfigDocumentBase.h" />
     <ClInclude Include="ConfigDocumentNameUtil.h" />
     <ClInclude Include="ConfigObjectGridCtrl.h" />

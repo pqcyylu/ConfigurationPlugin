@@ -120,6 +120,9 @@
     <ClCompile Include="ConfigObjectOperationHandler.cpp">
       <Filter>OperationExecuter</Filter>
     </ClCompile>
+    <ClCompile Include="AddIntanceOperationExecuter.cpp">
+      <Filter>OperationExecuter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -195,6 +198,9 @@
       <Filter>Parameters</Filter>
     </ClInclude>
     <ClInclude Include="ConfigObjectOperationHandler.h">
+      <Filter>OperationExecuter</Filter>
+    </ClInclude>
+    <ClInclude Include="AddIntanceOperationExecuter.h">
       <Filter>OperationExecuter</Filter>
     </ClInclude>
   </ItemGroup>
