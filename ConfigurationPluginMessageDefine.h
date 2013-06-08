@@ -1,0 +1,9 @@
+#pragma once
+
+#include "DTAppMsgDef.h"
+
+/*打开单站配置界面的命令*/
+#define ID_CMD_OPEN_SINGLEEQUIPMENT_CFG WM_CONFIGURATION_PLUGIN_MSG_BASE+1
+
+/*更新显示配置对象实例的窗口消息*/
+#define WM_UPDATE_INSTANCES_VIEW WM_CONFIGURATION_PLUGIN_MSG_BASE+2
