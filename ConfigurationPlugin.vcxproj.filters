@@ -16,6 +16,9 @@
     <Filter Include="Parameters">
       <UniqueIdentifier>{d7878d09-341a-4fa2-962a-443a8f5c1a40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OperationExecuter">
+      <UniqueIdentifier>{ea0c09af-6498-4bec-a660-c9d86d0aee2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -99,9 +102,6 @@
     <ClCompile Include="OperationTreeLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConfigObjectOperationHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="OperationParameterDialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -116,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="OperationParameterFactory.cpp">
       <Filter>Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigObjectOperationHandler.cpp">
+      <Filter>OperationExecuter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -176,9 +179,6 @@
     <ClInclude Include="OperationTreeLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConfigObjectOperationHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="OperationParameterDialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -193,6 +193,9 @@
     </ClInclude>
     <ClInclude Include="OperationParameterFactory.h">
       <Filter>Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigObjectOperationHandler.h">
+      <Filter>OperationExecuter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
